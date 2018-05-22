@@ -1,10 +1,12 @@
 * {
-    --color-bg-main: #666;
-    --color-bg-highlight: #bedead;
-    --color-font-main: #222;
-    --color-font-link: #0b5e55;
-    --color-font-link-hover: #0b7e57;
-    --color-font-link-visited: #0b5e55;
+  box-sizing: border-box;
+
+  --color-bg-main: #333;
+  --color-bg-highlight: #bedead;
+  --color-font-main: #222;
+  --color-font-link: #0b5e55;
+  --color-font-link-hover: #0b7e57;
+  --color-font-link-visited: #0b5e55;
   }
   
 body {
@@ -21,7 +23,7 @@ a {
   }
 }
 
-container {
+content {
   width: 100vw;
   height: 100vh;
 
@@ -30,7 +32,7 @@ container {
   align-items: center;
 }
 
-.content {
+.container {
   width: 80vw;
   text-align: center;
 
@@ -59,7 +61,7 @@ textarea {
 }
 
 h1 {
-  margin: 0% 5% 5% 5%;
+  margin: 0 0 20px 0;
 }
 
 button {

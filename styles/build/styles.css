@@ -1,5 +1,6 @@
 * {
-  --color-bg-main: #666;
+  box-sizing: border-box;
+  --color-bg-main: #333;
   --color-bg-highlight: #bedead;
   --color-font-main: #222;
   --color-font-link: #0b5e55;
@@ -16,14 +17,14 @@ a {
   a:hover {
     color: var(--color-font-link-hover); }
 
-container {
+content {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.content {
+.container {
   width: 80vw;
   text-align: center;
   padding: 5%;
@@ -45,7 +46,7 @@ textarea {
   font-size: large; }
 
 h1 {
-  margin: 0% 5% 5% 5%; }
+  margin: 0 0 20px 0; }
 
 button {
   font-size: large;
